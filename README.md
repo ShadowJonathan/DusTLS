@@ -1,6 +1,6 @@
 # `dtls`
 
-A DTLSv1.2 implementation in Rust, utilizing [`rustls`](https://github.com/rustls/rustls) for cryptographic primitives.
+A DTLSv1.2 implementation in Rust, reusing [`rustls`](https://github.com/rustls/rustls) for cryptographic primitives and most message payload formats.
 
 **Note: This library is a work in progress, and (possibly) not yet tuned to the ecosystem.**
 
