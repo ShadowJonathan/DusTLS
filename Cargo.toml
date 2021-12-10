@@ -7,3 +7,5 @@ edition = "2021"
 
 
 [dependencies]
+# rustls = { version = "0.20.2", features = ["tls12"], path = "../rustls/rustls" }
+rustls = { version = "0.20.2", features = ["tls12"], git = "https://github.com/ShadowJonathan/rustls", rev = "c8333c9ea4a37b464dffb8904f05875a7c61c60d" }
