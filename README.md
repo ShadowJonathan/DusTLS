@@ -1,4 +1,4 @@
-# `dustls` a pure-rust DTLS implementation
+# `dustls`, a pure-rust DTLS implementation
 
 A DTLSv1.2 implementation in Rust, reusing [`rustls`](https://github.com/rustls/rustls) for cryptographic primitives and most message payload formats.
 
