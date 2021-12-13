@@ -1,10 +1,13 @@
 [package]
 name = "dustls"
 authors = ["Jonathan de Jong <jonathan@automatia.nl>"]
-license = "MIT"
-version = "0.0.1"
+license = "MIT OR Apache-2.0"
+version = "0.1.0"
 edition = "2021"
-
+keywords = ["dtls", "tls", "udp"]
+description = "A pure-rust DTLS implementation"
+repository = "https://github.com/ShadowJonathan/dustls"
+readme = "README.md"
 
 [dependencies]
 # rustls = { version = "0.20.2", features = ["tls12"], path = "../rustls/rustls" }
