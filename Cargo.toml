@@ -1,5 +1,5 @@
 [package]
-name = "dtls"
+name = "dustls"
 authors = ["Jonathan de Jong <jonathan@automatia.nl>"]
 license = "MIT"
 version = "0.0.1"
